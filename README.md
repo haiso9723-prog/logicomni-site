@@ -30,6 +30,7 @@ For an integrity check, run `sha256sum -c SHA256SUMS` from the repository root.
 The site is static. Its code sets no cookies and has no HTML form, analytics,
 backend, or third-party script. Contact and research opt-in links open the
 visitor's email client; the website itself sends nothing automatically. The
-research opt-in page is a local, unpublished draft until separately approved
-for deployment. Hosting response headers are configured in `vercel.json`;
-verify them on any live deployment.
+research-participation page and its clearly labeled synthetic impact sample
+support voluntary research only. The sample is fictional, hand-prepared and
+not a customer result or product demonstration. Hosting response headers are
+configured in `vercel.json`; verify them on any live deployment.
