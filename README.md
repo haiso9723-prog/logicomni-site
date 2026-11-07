@@ -27,7 +27,9 @@ For an integrity check, run `sha256sum -c SHA256SUMS` from the repository root.
 | Install Command | none |
 | Environment Variables | none |
 
-The site is static. Its code sets no cookies and has no form, analytics,
-backend, or third-party script. The contact link opens the visitor's email
-client; the website itself sends nothing automatically. Hosting response
-headers are configured in `vercel.json`; verify them on any live deployment.
+The site is static. Its code sets no cookies and has no HTML form, analytics,
+backend, or third-party script. Contact and research opt-in links open the
+visitor's email client; the website itself sends nothing automatically. The
+research opt-in page is a local, unpublished draft until separately approved
+for deployment. Hosting response headers are configured in `vercel.json`;
+verify them on any live deployment.
